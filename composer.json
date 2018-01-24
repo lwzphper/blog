@@ -1,0 +1,16 @@
+{
+    "name": "lwzphper/blog",
+    "description": "test composer",
+    "type": "project",
+    "require": {
+        "houdunwang/arr": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lwz",
+            "email": "1149243551@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
