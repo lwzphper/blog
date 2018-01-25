@@ -3,7 +3,8 @@
     "description": "test composer",
     "type": "project",
     "require": {
-        "houdunwang/arr": "*"
+        "houdunwang/arr": "*",
+        "gregwar/captcha": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +13,20 @@
             "email": "1149243551@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "files" : [
+            "core/functions.php"
+        ],
+        "psr-4": {
+            "core\\": "core/",
+            "web\\": "web/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
